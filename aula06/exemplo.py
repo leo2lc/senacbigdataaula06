@@ -41,4 +41,4 @@ for n in range(5):
     numero = float(input('Informe o valor da venda: '))
     total = total + numero
 
-print(f'O total é {total:.2f}') # para formatar casas decimais depois da vírgula
+print(f'O total da soma é {total:.2f}') # para formatar casas decimais depois da vírgula

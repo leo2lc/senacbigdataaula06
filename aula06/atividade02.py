@@ -18,9 +18,9 @@ media = soma / 4
 print(f'a média foi: {media}')
 
 match media:
-    case nota => 7:
+    case m if m >= 7:
         print(f'Aprovado, média: {media}') 
-    case nota => 5:
+    case m if 5 <= m < 7:
         print(f'Em recuperação, média: {media}')
-    case nota < 5:
+    case m if m <= 5:
         print(f'Reprovado, média: {media}')
